@@ -14,7 +14,7 @@
     <div v-for="pokemon in pokemons">
       <Pokemon v-bind:pokemon="pokemon"/>
     </div>
-    <div v-if="pokemons.length === 0">
+    <div v-if="pokemons.length === 0 && !pokemonNotFound">
       <div class="notification">
         There are no pokemonts yet! Train hard and catch all of them!
       </div>
