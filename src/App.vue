@@ -16,7 +16,7 @@
     </div>
     <div v-if="pokemons.length === 0 && !pokemonNotFound">
       <div class="notification">
-        There are no pokemonts yet! Train hard and catch all of them!
+        There are no pokemons yet! Train hard and catch all of them!
       </div>
     </div>
     <div v-if="pokemonNotFound">
